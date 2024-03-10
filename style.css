@@ -65,3 +65,12 @@ button:focus {
     0px 0.5px 1px rgba(0, 0, 0, 0.1), 0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
   outline: 0;
 }
+@media (min-width: 400px) {
+  h1 {
+    font-size: 60px;
+  }
+  h1::after,
+  h1::before {
+    width: 200px;
+  }
+}
